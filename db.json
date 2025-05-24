@@ -1,0 +1,113 @@
+{
+  "users": [
+    { "id": 1, "username": "admin1", "password": "adminpass", "role": "Admin" },
+    {
+      "id": 2,
+      "username": "customer1",
+      "password": "custpass1",
+      "role": "Customer"
+    },
+    {
+      "id": 3,
+      "username": "customer2",
+      "password": "custpass2",
+      "role": "Customer"
+    },
+    {
+      "id": 4,
+      "username": "freelancer1",
+      "password": "freepass1",
+      "role": "Freelancer"
+    },
+    {
+      "id": 5,
+      "username": "freelancer2",
+      "password": "freepass2",
+      "role": "Freelancer"
+    }
+  ],
+  "workers": [
+    {
+      "id": 1,
+      "name": "Ali Veli",
+      "skill": "Web Development",
+      "experience": 5,
+      "availability": true
+    },
+    {
+      "id": 2,
+      "name": "Ayşe Yılmaz",
+      "skill": "Graphic Design",
+      "experience": 3,
+      "availability": false
+    },
+    {
+      "id": 3,
+      "name": "Mehmet Can",
+      "skill": "Mobile App",
+      "experience": 4,
+      "availability": true
+    },
+    {
+      "id": 4,
+      "name": "Fatma Demir",
+      "skill": "Copywriting",
+      "experience": 2,
+      "availability": true
+    },
+    {
+      "id": 5,
+      "name": "Ahmet Kaya",
+      "skill": "SEO",
+      "experience": 6,
+      "availability": false
+    }
+  ],
+  "works": [
+    {
+      "id": 1,
+      "customer_id": 2,
+      "description": "Kurumsal web sitesi yapılacak.",
+      "budget": 10000,
+      "deadline_time": "2024-07-15",
+      "status": "Beklemede",
+      "freelancer_id": 4
+    },
+    {
+      "id": 2,
+      "customer_id": 3,
+      "description": "Mobil uygulama geliştirme.",
+      "budget": 15000,
+      "deadline_time": "2024-08-01",
+      "status": "Devam Ediyor",
+      "freelancer_id": 5
+    },
+    {
+      "id": 3,
+      "customer_id": 2,
+      "description": "Logo ve kurumsal kimlik tasarımı.",
+      "budget": 5000,
+      "deadline_time": "2024-07-10",
+      "status": "Tamamlandı",
+      "freelancer_id": 4
+    },
+    {
+      "id": 4,
+      "customer_id": 3,
+      "description": "SEO optimizasyonu.",
+      "budget": 3000,
+      "deadline_time": "2024-07-20",
+      "status": "Beklemede",
+      "freelancer_id": 5
+    },
+    {
+      "id": 5,
+      "customer_id": 2,
+      "description": "Blog yazısı hazırlanacak.",
+      "budget": 1000,
+      "deadline_time": "2024-07-05",
+      "status": "Devam Ediyor",
+      "freelancer_id": 4
+    }
+  ]
+}
